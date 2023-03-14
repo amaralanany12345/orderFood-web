@@ -1,0 +1,457 @@
+.container{
+    position: relative;
+}
+.container .header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(133, 36, 36);
+    color: white;
+    position: relative;
+    height: 80px;
+
+}
+.container .header .icon{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.container .header .counter{
+    position: absolute;
+    right: 60px;
+    top: 5px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+.container .header .navigation{
+    display: flex;
+    flex-direction:row ;
+    gap: 20px;
+    top: 5px;
+    position: absolute;
+    right: 660px;
+    cursor: pointer;
+}
+.container .header .tasty{
+    position: relative;
+    left: 10px;
+    font-size: 17px;
+    top: 40px;
+}
+.container .header .image{
+    position: absolute;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.container .para{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: RocknRoll One,sans-serif!important;
+}
+.container .para h4{
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    font-size: 20px;
+}
+.container .para .h1{
+    position: absolute;
+    max-width: 460px;
+    top: 100px;
+    left: 70px;
+    font-size: 40px;
+}
+.container .para p{
+    max-width: 600px;
+    position: absolute;
+    top: 250px;
+    left: 70px;
+}
+
+.container .para .photo{
+    position: absolute;
+    top: 80px;
+    width: 650px;
+    height: 650px;
+    left: 750px;
+}
+.container .foodTypes{
+    position: absolute;
+    top: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    font-family: RocknRoll One,sans-serif!important;
+    left: 200px;
+}
+.container .foodTypes .foods{
+    background-color: #fde4e4;
+    color: black;
+    width: 190px;
+    height: 80px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.container .WhatTheServe{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 1000px;
+    left: 600px;
+    font-family:  RocknRoll One,sans-serif!important;
+    font-size: large;
+}
+.container .WhatTheServe>:first-child {
+    color: red;
+}
+.container .WhatTheServe .h3 {
+    color: rgb(104, 65, 65);
+    max-width: 230px;
+}
+.container .category{
+    position: absolute;
+    top: 1200px;
+    display: flex;
+    flex-direction: row;
+    font-family:  RocknRoll One,sans-serif!important;
+    font-size: large;
+    gap: 300px;
+    justify-content: space-around;
+    left: 200px;
+}
+.container .TastyTreat{
+    position: absolute;
+    top: 2200px;
+    display: flex;
+    flex-direction: row;
+}
+.container .TastyTreat .deliveryImage{
+    width: 530px;
+    height: 530px;
+    position: absolute;
+    left: 40px;
+}
+.container .TastyTreat .why{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 900px;
+    font-family:  RocknRoll One,sans-serif!important;
+}
+.container .TastyTreat .why p{
+    max-width: 500px;
+}
+.container .TastyTreat .why h3{
+    font-size: x-large;
+    color: red;
+}
+.container .TastyTreat .why h4{
+    color: red;
+}
+.container .hotPizza{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    position: relative;
+    top: 2800px;
+    margin-left: 100px;
+}
+.container .hotPizza .cart{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.container .hotPizza .cart .img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 90px;
+    top: 20px;
+}
+
+.container .hotPizza .cart .names{
+    position: absolute;
+    font-size: 16px;
+    left: 65px;
+    top: 150px;
+    text-align: center;
+}
+.container .hotPizza .cart .prices{
+    color: red;
+    position: absolute;
+    left: 40px;
+    bottom: 20px;
+}
+.container .hotPizza .cart .prices::after{
+    content: ' US$';
+}
+
+.container .hotPizza .cart .cartButton{
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+    padding: 10px;
+    outline: none;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.container .hotPizza .cart .cartButton:hover{
+    background-color: black;
+}
+.container .hotPizza .cart .numberOfPiece{
+    display: none;
+}
+
+.container .contactImage{
+    position: absolute;
+    top: 3300px;
+    left: 500px;
+    width: 500px;
+    height: 500px;
+}
+.container .card{
+    font-family: RocknRoll One,sans-serif!important;
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    top: 1400px;
+    left: 70px;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+.container .card .cart{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.container .card .cart .img{
+    position: absolute;
+    left: 70px;
+    width: 150px;
+    height: 150px;
+}
+
+.container .card .cart .names{
+    position: absolute;
+    font-size: 16px;
+    left: 65px;
+    top: 150px;
+    text-align: center;
+}
+.container .card .cart .prices{
+    color: red;
+    position: absolute;
+    left: 40px;
+    bottom: 20px;
+}
+.container .card .cart .prices::after{
+    content: ' US$';
+}
+
+.container .card .cart .cartButton{
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+    padding: 10px;
+    outline: none;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.container .card .cart .cartButton:hover{
+    background-color: black;
+}
+.container .card .cart .numberOfPiece{
+    display: none;
+}
+.container .orderPage{
+    position: absolute;
+    top:80px;
+    right: 0px;
+    border: 1px solid black;
+    z-index: 1;
+    width: 450px;
+    background-color: #EEE;
+    display: none;
+    z-index: 1;
+    padding: 40px;
+}
+.container .orderPage .orderCart{
+    width: 200px;
+    position: relative;
+    top: -90px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container .orderPage .orderCart .theImg{
+    position: relative;
+    top: 101px;
+    left: 50px;
+    width: 120px;
+    height: 100px;
+}
+.container .orderPage .orderCart .names{
+    position: relative;
+    font-size: 16px;
+    left: 0px;
+    top: 20px;
+    max-width: 250px;
+    text-align: center;
+}
+.container .orderPage .orderCart .prices{
+    color: red;
+    position: relative;
+    left: 60px;
+    bottom: 20px;
+}
+.container .orderPage .orderCart .prices::after{
+    content: ' US$';
+}
+
+.container .orderPage .orderCart .prices::after{
+    content: ' US$';
+}
+.container .orderPage .total{
+    position: absolute;
+    bottom: -10px;
+    position: absolute;
+    left: 20px;
+}
+.container .orderPage .total::before{
+    content: 'Subtotal : ';
+}
+.container .orderPage .total::after{
+    content: ' US$';
+}
+
+.container .orderPage .Exit{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: #212245;
+    color: white;
+}
+.container .orderPage .Exit:hover{
+    color: red;
+}
+.container .orderPage .checkOut{
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    padding: 8px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.container .orderPage .increase{
+    position: relative;
+    padding: 8px;
+    border-radius:5px;
+    outline: none;
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    left: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.container .orderPage .decrease{
+    position: relative;
+    top: -77px;
+    left: 150px;
+    padding: 8px;
+    border-radius:5px;
+    outline: none;
+    background-color: red;
+    color: white;
+    width: 20px;
+    text-align: center;
+    cursor:pointer;
+}
+.container .orderPage .delete{
+    padding: 8px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    right: -230px;
+    top: -342px;
+    cursor: pointer;
+}
+.container .orderPage .delete:hover{
+    color: red;
+    background-color: blanchedalmond;
+}
+
+.container .orderPage .theNumber{
+    position: relative;
+    top: 118px;
+    right: -165px;
+    display: block;
+}
+.container .footer{
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    position: relative;
+    top: 3600px;
+    background-color: #fde4e4;
+    padding: 30px;
+    font-family: RocknRoll One,sans-serif!important;
+
+}
+.container .footer .icon{
+    width: 100px;
+    height: 100px;
+}
+.container .footer .contact h3{
+    color: red;
+    font-size: x-large;
+}
+.container .footer .contact p{
+    max-width: 300px;
+}
+.container .footer .contact h5{
+    position: relative;
+    top: 40px;
+    max-width: 500px;
+
+}
+
